@@ -6,7 +6,7 @@
 [![GitHub PR](https://img.shields.io/github/issues-pr/PeerHerholz/MSc05_template_repository)](https://github.com/PeerHerholz/MSc05_template_repository/pulls)
 [![License](https://img.shields.io/github/license/PeerHerholz/MSc05_template_repository)](https://github.com/PeerHerholz/MSc05_template_repository)
 
-A template repository for projects conducted as part of the MSc05 module of the [Psychology Master program](https://www.psychologie.uni-frankfurt.de/48331594/Willkommen_auf_den_Seiten_des_Instituts_f%C3%BCr_Psychologie?legacy_request=1) of the [Goethe-University Frankfurt](https://www.uni-frankfurt.de/de?), specifically the cognition major/concentration and [neurocognitive psychology lab](http://www.fiebachlab.org/).
+A repository for the Neurocognitive Psychology project conducted as part of the MSc05 module of the [Psychology Master program](https://www.psychologie.uni-frankfurt.de/48331594/Willkommen_auf_den_Seiten_des_Instituts_f%C3%BCr_Psychologie?legacy_request=1) of the [Goethe-University Frankfurt](https://www.uni-frankfurt.de/de?), specifically the cognition major/concentration and [neurocognitive psychology lab](http://www.fiebachlab.org/).
 
 ## Overview
 

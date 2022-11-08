@@ -1,10 +1,10 @@
 # Neurocognitive Psychology
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](http://www.peerherholz.github.io/MSc05_template_repository/)
-[![GitHub size](https://img.shields.io/github/repo-size/PeerHerholz/MSc05_template_repository)](https://github.com/repronim/OHBMEducation-2022/archive/master.zip)
-[![GitHub issues](https://img.shields.io/github/issues/PeerHerholz/MSc05_template_repository?style=plastic)](https://github.com/PeerHerholz/MSc05_template_repository/issues)
-[![GitHub PR](https://img.shields.io/github/issues-pr/PeerHerholz/MSc05_template_repository)](https://github.com/PeerHerholz/MSc05_template_repository/pulls)
-[![License](https://img.shields.io/github/license/PeerHerholz/MSc05_template_repository)](https://github.com/PeerHerholz/MSc05_template_repository)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](http://www.Gretivan.github.io/Neurocognitive_Psychology/)
+[![GitHub size](https://img.shields.io/github/repo-size/Gretivan/Neurocognitive_Psychology)](https://github.com/repronim/OHBMEducation-2022/archive/master.zip)
+[![GitHub issues](https://img.shields.io/github/issues/Gretivan/Neurocognitive_Psychology?style=plastic)](https://github.com/Gretivan/Neurocognitive_Psychology/issues)
+[![GitHub PR](https://img.shields.io/github/issues-pr/Gretivan/Neurocognitive_Psychology)](https://github.com/Gretivan/Neurocognitive_Psychology/pulls)
+[![License](https://img.shields.io/github/license/Gretivan/Neurocognitive_Psychology)](https://github.com/Gretivan/Neurocognitive_Psychology)
 
 A repository for the Neurocognitive Psychology project conducted as part of the MSc05 module of the [Psychology Master program](https://www.psychologie.uni-frankfurt.de/48331594/Willkommen_auf_den_Seiten_des_Instituts_f%C3%BCr_Psychologie?legacy_request=1) of the [Goethe-University Frankfurt](https://www.uni-frankfurt.de/de?), specifically the cognition major/concentration and [neurocognitive psychology lab](http://www.fiebachlab.org/).
 

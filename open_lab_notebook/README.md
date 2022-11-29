@@ -29,8 +29,24 @@ This week I aim to assess the demographic information of my data set - including
  - tip: when putting data in to the model ASSURE that its the same reihenfolge as in your dataframe
 
 # 22.11.2022
+- use pandas to pick people with similar distribution for matching, pattern matching for number of factors or use tools
+- build sub data frames - and check distrbutions via this ASD and control, within these pull people out
+- there are models who can handle this large class difference 
+- python regressions and svm - you can put in weight when you have unrepresented groups to input more loss in the function 
+- matching with demographic data, is possible need to find syntax 
+- females vorverarbeiten since you need all anyway
+- what isnt clear in terms of masker, look through course website 
+- meeting times dienstags 9:00 
+- where are my problems? Going through it on tuesday 
+
 
 # 29.11.2022
+- Google searches to figure out how to apply mask to my cortical thickness data
+- worked through with Maren and built a mask, but the mask cannot be applied to the data to transform it
+- Need to figure out why there is an error and how to fix it so the mask can be applied
+- Search through and apply propensity score matching for matched group design 
+- If matching and masking works, establish demographic data for the sample that will be entered into the model 
+
 
 # 06.12.2022
 

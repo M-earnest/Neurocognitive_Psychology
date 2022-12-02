@@ -45,7 +45,8 @@ This week I aim to assess the demographic information of my data set - including
 - worked through with Maren and built a mask, but the mask cannot be applied to the data to transform it
 - Need to figure out why there is an error and how to fix it so the mask can be applied
 - Search through and apply propensity score matching for matched group design 
-- If matching and masking works, establish demographic data for the sample that will be entered into the model 
+- If matching and masking works, load files for participants 
+- establish demographic data for the sample that will be entered into the model 
 
 
 # 06.12.2022

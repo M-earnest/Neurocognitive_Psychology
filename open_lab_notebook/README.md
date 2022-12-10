@@ -2,7 +2,7 @@
 
 
 # 25.10.2022
-
+Check
 
 # 01.11.2022
 This week I will reorganise and annotate my githup repository to make it more visible. I also looked for an atlas that will be used to determine regions of interest. I used a paper to determine a good atlas to use based on past research papers into cortical thickness differences in individuals with and without Autism. 

@@ -47,9 +47,18 @@ This week I aim to assess the demographic information of my data set - including
 - Search through and apply propensity score matching for matched group design 
 - If matching and masking works, load files for participants 
 - establish demographic data for the sample that will be entered into the model 
+- Denisty plot? across regions and across groups
+- propensity matching with tsv file - check if you have to normalise/standardise data
 
 
 # 06.12.2022
+- After seeking help from Peer we established that my brain images and my atlas were in different spaces
+- He was able to find away to resolve this issue with the use of ANTs, which took me a while to download and install as it is quite a tedious process
+- Was able to download ANTs
+- Used a loop instead of psmpy to match participants
+- Goal for this week is to organise jupyter notebook and download the now matched subject ids 
+- Also analyse demographic data of the used participants 
+- 
 
 # 13.12.2022
 

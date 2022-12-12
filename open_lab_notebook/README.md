@@ -58,9 +58,13 @@ This week I aim to assess the demographic information of my data set - including
 - Used a loop instead of psmpy to match participants
 - Goal for this week is to organise jupyter notebook and download the now matched subject ids 
 - Also analyse demographic data of the used participants 
-- 
 
 # 13.12.2022
+- I organised the majority of the notebook from what i have done so far including comments
+- I have gotten stuck on the download of the whole dataset since there are now new URLs  because of the need for transformations
+- There are files with no filenames, though this doesnt seem to be a problem now since the new URL requires subject IDs as opposed to file IDs
+- This week I need to read some more into machine learning methods such as logistic regression and support vector machine
+- Potentially create and deep learning neural network and have a play around with it 
 
 # 20.12.2022
 

@@ -67,8 +67,14 @@ This week I aim to assess the demographic information of my data set - including
 - Potentially create and deep learning neural network and have a play around with it 
 
 # 20.12.2022
-
-# 27.12.2022
+- Downloaded all the data, 17 failed downloads so potentially need to rematch some of the participants 
+- create a loop to mask all of the data - how to put this in a dataframe?? 
+- Plot masked data 
+- After downloading the joined_list sample, I now have 17 failed downloads, of which 4 are females and 12 are males. Which means that there are 8 females without a matched male. Thus I think i have to rematch but I am not quite sure how to.
+- plot on participant
+- work out means for all areas and maybe plot them 
+- plot to see how uneven new matched sample 
+- if its too imbalanced maybe use balancing algorithm
 
 # 03.01.2023
 

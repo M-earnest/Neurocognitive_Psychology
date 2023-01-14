@@ -76,10 +76,18 @@ This week I aim to assess the demographic information of my data set - including
 - plot to see how uneven new matched sample 
 - if its too imbalanced maybe use balancing algorithm
 
-# 03.01.2023
-
 # 07.01.2023
+- decided not to rematch the participants but rather use an algorithm that takes this slight mismatch into account
+- created a loop to transform all of the data for future masking
+- however this didnt work as ants failed to execute: the problem being that .bashrc was not being accessed by the syntax, so had to add a path to the ants file
+- transformations all worked, creating 311 new files of transformed data
+- then added the mask to all the data to create a dictionary of 311 arrays including the 148 areas of the atlas
+- next steps: read into logistic regression and SVM
+- potentially plotting the cortical thicknesses??
 
 # 14.01.2023
+# 21.01.2023
+# 28.01.2023
+# 
 
 

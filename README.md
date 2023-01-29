@@ -1,7 +1,7 @@
 # Neurocognitive Psychology
 
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](http://www.Gretivan.github.io/Neurocognitive_Psychology/)
-[![GitHub size](https://img.shields.io/github/repo-size/Gretivan/Neurocognitive_Psychology)](https://github.com/repronim/OHBMEducation-2022/archive/master.zip)
+[![GitHub size](https://img.shields.io/github/repo-size/Gretivan/Neurocognitive_Psychology)](https://github.com/Gretivan/Neurocognitive_Psychology/archive/master.zip)
 [![GitHub issues](https://img.shields.io/github/issues/Gretivan/Neurocognitive_Psychology?style=plastic)](https://github.com/Gretivan/Neurocognitive_Psychology/issues)
 [![GitHub PR](https://img.shields.io/github/issues-pr/Gretivan/Neurocognitive_Psychology)](https://github.com/Gretivan/Neurocognitive_Psychology/pulls)
 [![License](https://img.shields.io/github/license/Gretivan/Neurocognitive_Psychology)](https://github.com/Gretivan/Neurocognitive_Psychology)

@@ -5,6 +5,7 @@ chapters:
 - file: general_information/Datamanagement_Plan.ipynb
   sections:
   - file: general_information/documentation.md
+chapters: 
 - file: general_information/Data_analysis.ipynb
 - file: general_information/discussion.md
 - file: introduction/intro

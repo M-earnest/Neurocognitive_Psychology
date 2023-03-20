@@ -3,6 +3,8 @@ format: jb-book
 chapters:
 - file: general_information/Literature_Review.ipynb
 - file: general_information/Datamanagement_Plan.ipynb
+  sections:
+  - file: general_information/documentation.md
 - file: general_information/Data_analysis.ipynb
 - file: general_information/discussion.md
 - file: introduction/intro
@@ -14,7 +16,3 @@ chapters:
   - file: content/static_content.md
   - file: content/interactive_notebook.md
   - file: content/creating_content_example.ipynb
-- file: general_information/results_communication
-- file: general_information/symposium
-- file: general_information/CoC
-- file: general_information/dei

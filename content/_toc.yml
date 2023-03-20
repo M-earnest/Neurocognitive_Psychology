@@ -4,7 +4,7 @@ chapters:
 - file: general_information/Literature_Review.ipynb
 - file: general_information/Datamanagement_Plan.ipynb
 - file: general_information/Data_analysis.ipynb
-- file: general_information/Discussion.ipynb
+- file: general_information/discussion.md
 sections:
   - file: open_lab_notebook/README.md
   - file: introduction/interactive_notebook

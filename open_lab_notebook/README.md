@@ -1,93 +1,46 @@
- # Goals and Achievements of the week 
+ # Documentation 
 
+# October 2022
+Thus far, data overview steps and practice exploration has been done. This involved downloading the phenotypic .csv file from the NITRC website and looking at what kind of participants we were working with. More in depth analysis and issues were documented later on as during and before October 2022, the main focus was conceptualising a research question, looking into previous research and attending seminar sessions. 
 
-# 25.10.2022
-Check
-
+# November 2022 
 # 01.11.2022
-This week I will reorganise and annotate my githup repository to make it more visible. I also looked for an atlas that will be used to determine regions of interest. I used a paper to determine a good atlas to use based on past research papers into cortical thickness differences in individuals with and without Autism. 
+This week I reorganised and annotated my githup repository to make it more manageable. I also searched for an atlas that will determine which regions of interest we are assessing. I used research papers assessing cortical thickness differnces in individuals with and without ASD to determine which atlas would be good to use.
 
 # 08.11.2022
-This week I aim to assess the demographic information of my data set - including the number of male and female participants, the average age, and the number of autistic vs. control participants. In addition to this I have loaded my atlas in jupyter and loaded the labels for the 150 areas of the Destrieux Atlas. 
+This week I assessed the phenotypic information of my data set - including the number of male and female participants, the average age, and the number of autistic vs. control participants. In addition to this I have loaded my atlas in jupyter and loaded the labels for the 148 areas of the Destrieux Atlas. 
 
 # 15.11.2022
- This week I loaded my Atlas and established what the 150 labels are for the areas of the Atlas. I looked at some demographic data - including how many females and males there are in the sample, and how many of the participants were controls and how many were participants with Autism. I read through course content to get an idea of what the next steps will be. 
-
- Next Steps:
+Read through course content to get an idea of what the next steps will be, and listed these to get an overview: 
  - establish which brain images to download - aka all the female ppts and some of the male ppts
  - download images, potentially with labels like male-autism, male-control etc. 
- - demographics for the dataset downloaded
-
- -  for preprocessing - merge atlas with the cortical thickness data you have - converting mean area of cortical map on atlas
- --- Masked Data - nilearn documentation masker 
- - for all peopel use a small loop 
-
- - for participants, match the participants - males to females in order to not make it random
- aka match age, handedness maybe?, comorbidities, brain trauma, medication, 
- - manually delete checkpoints, and change git ignore
-
- - tip: when putting data in to the model ASSURE that its the same reihenfolge as in your dataframe
+ - for preprocessing - merge atlas with the cortical thickness data
+ - match the participants - males to females to even out the two groups based on age and group
 
 # 22.11.2022
-- use pandas to pick people with similar distribution for matching, pattern matching for number of factors or use tools
-- build sub data frames - and check distrbutions via this ASD and control, within these pull people out
-- there are models who can handle this large class difference 
-- python regressions and svm - you can put in weight when you have unrepresented groups to input more loss in the function 
-- matching with demographic data, is possible need to find syntax 
-- females vorverarbeiten since you need all anyway
-- what isnt clear in terms of masker, look through course website 
-- meeting times dienstags 9:00 
-- where are my problems? Going through it on tuesday 
+- use pandas to carry out pattern matching based on a number ot factors aka. age and group 
+- plot the new distribution of males and females to see whether they are now more even, and look at the matching accuracy
 
 
 # 29.11.2022
-- Google searches to figure out how to apply mask to my cortical thickness data
-- worked through with Maren and built a mask, but the mask cannot be applied to the data to transform it
-- Need to figure out why there is an error and how to fix it so the mask can be applied
-- Search through and apply propensity score matching for matched group design 
-- If matching and masking works, load files for participants 
-- establish demographic data for the sample that will be entered into the model 
-- Denisty plot? across regions and across groups
-- propensity matching with tsv file - check if you have to normalise/standardise data
-
+This week I came across an error while trying to apply and build my mask to my data. After attemtping to google how to apply the mask to my brain images, I decided to get in contact with Peer Herholz. Since I have now matched the participants and know who will be in each group, I can download the necessary files for only those participants which are matched. Phenotypic data can then be reassessed for the new sample. 
 
 # 06.12.2022
-- After seeking help from Peer we established that my brain images and my atlas were in different spaces
-- He was able to find away to resolve this issue with the use of ANTs, which took me a while to download and install as it is quite a tedious process
-- Was able to download ANTs
-- Used a loop instead of psmpy to match participants
-- Goal for this week is to organise jupyter notebook and download the now matched subject ids 
-- Also analyse demographic data of the used participants 
+After seeking help from Peer we established that my brain images and my atlas were in different spaces which is why they transformations could not be applied. He was able to find a way to resolve this issue using a specific bash code to transform our images into the correct space using ANTs. This took a very long time to figure out, and it did not work with out hiccups which halted my process for a while. 
 
 # 13.12.2022
-- I organised the majority of the notebook from what i have done so far including comments
-- I have gotten stuck on the download of the whole dataset since there are now new URLs  because of the need for transformations
-- There are files with no filenames, though this doesnt seem to be a problem now since the new URL requires subject IDs as opposed to file IDs
-- This week I need to read some more into machine learning methods such as logistic regression and support vector machine
-- Potentially create and deep learning neural network and have a play around with it 
+Since ANTs was not working, I organised the majority of the notebook from what I have done so far, adding commencts of the process along the way. I have again gotten stuck on downloading the whole dataset since there are now new URLs because of the need for transformations. There are files that have no filenames, which I noticed, but this doesnt seem to be a problem now since the new URL requires subject IDs as opposed to file IDs. 
 
 # 20.12.2022
-- Downloaded all the data, 17 failed downloads so potentially need to rematch some of the participants 
-- create a loop to mask all of the data - how to put this in a dataframe?? 
-- Plot masked data 
-- After downloading the joined_list sample, I now have 17 failed downloads, of which 4 are females and 12 are males. Which means that there are 8 females without a matched male. Thus I think i have to rematch but I am not quite sure how to.
-- plot on participant
-- work out means for all areas and maybe plot them 
-- plot to see how uneven new matched sample 
-- if its too imbalanced maybe use balancing algorithm
+Downloaded all the data, 17 failed downloads so there is a potential need to rematch some of the participants, but this will be decided later. I created a loop to mask all of the data. Before carrying out the loop I rechecked the new sample to assess whether it is too uneven, and whether rematching needs to be done or whether an algorithm can account for this.  
 
 # 07.01.2023
-- decided not to rematch the participants but rather use an algorithm that takes this slight mismatch into account
-- created a loop to transform all of the data for future masking
-- however this didnt work as ants failed to execute: the problem being that .bashrc was not being accessed by the syntax, so had to add a path to the ants file - 3 hours
-- transformations all worked, creating 311 new files of transformed data
-- then added the mask to all the data to create a dictionary of 311 arrays including the 148 areas of the atlas
-- next steps: read into logistic regression and SVM
-- potentially plotting the cortical thicknesses??
+I decided not to rematch the participants but rather use an algorithm that takes this slight mismatch into account. The loop that I created to transform all of the data for future masking didn't work as ANTs failed to execute: the problem being that .bashrc was not being accessed by the syntax, so had to add a path to the ANTs file which took 3 hours. After that, the transformations were completed, creating 311 new transformed files. The files were then masked to create a dictionary of 311 arrays including the 148 areas of the atlas. 
 
-# 14.01.2023
-# 21.01.2023
-# 28.01.2023
-# 
+# January, February, March
+Due to me starting my Praktikum, I started sporadically working on my Notebook, making small changes here and there without documentation. I started of with the logistic regression analysis which took some time as I came across some problems writing the loop. After this, I decided to add a section before looking into the actual correlations between the different regions of interest, to see whether there were any patterns and relationships between these regions. Next, I was interested in what the results of the logistic regression actually mean, so I plotted two confusion matrices for the two groups and analysed their accuracy using the precision recall f-score and a classification report. The last two things that were of importance to me were a grid search and a feature selection method to see whether this would change anything in my model. 
+
+# 18.03.2023
+Some future directions were considered to recommend some aspects that would have been done differently if there had been more time and things that could be added to make a more comprehensive analysis. In addition to this I spent more time finalising and writing for my Jupyter Notebook. 
 
 

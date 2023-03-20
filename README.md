@@ -18,13 +18,9 @@ The goal of this project is to assess whether cortical thickness differences exi
 
 Information regarding the code and the data used can be found in this repository, in addition to an openlab notebook where data exploration and analysis is presented. 
 
-### Further resources
-
-*Describe potential further resources that were utilized and created during the course of the project.*
-
 ### Acknowledgements
 
-*Provide a list of people, tools, resources, etc. that you would like to acknowledge for their contribution to the project.*
+I would like to express my deepest appreciation to Peer Herholz for his effort in creating this module for us and for providing so much new and valuable information and skill for us to learn, and for always being kind and helpful when it was needed no matter how big or small. A big thanks to Michael Ernst for giving so much informational input and providing in person sessions for useful exchanges, and to Maren Wehrheim for supervising and assisitng with the data analysis, and for providing new and innovative ways of applying machine learning methods.
 
 
 

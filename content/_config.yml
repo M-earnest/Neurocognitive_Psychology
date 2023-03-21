@@ -8,7 +8,7 @@
 title                       : "Autism Spectrum Disorder and Neuroanatomy"  # The title of the book. Will be placed in the left navbar.
 author                      : Greta Vangerow by Peer Herholz, José C. García Alanis, Christoph Vogelbacher  # The author of the book
 copyright                   : "2022"  # Copyright year to be placed in the footer
-logo                        : "static/Brain_image.png"  # A path to the book logo
+logo                        : "static/brain_image.png"  # A path to the book logo
 exclude_patterns            : []  # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 
 #######################################################################################

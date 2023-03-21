@@ -1,11 +1,10 @@
 root: index
 format: jb-book
 chapters:
-- file: general_information/Literature_Review.ipynb
-- file: general_information/Datamanagement_Plan.ipynb
+- file: general_information/introduction.md
+- file: general_information/datamanagement.md
   sections:
-  - file: general_information/documentation.md
-chapters: 
+  - file: general_information/documentation.md 
 - file: general_information/Data_analysis.ipynb
 - file: general_information/discussion.md
 - file: introduction/intro

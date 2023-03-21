@@ -1,7 +1,7 @@
 root: index
 format: jb-book
 chapters:
-- file: general_information/introduction.md
+- file: general_information/literature.md
 - file: general_information/datamanagement.md
   sections:
   - file: general_information/documentation.md 
